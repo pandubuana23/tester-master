@@ -34,7 +34,7 @@ public class DriverBuilder {
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(Constants.DEFAULT_TIMEOUT, TimeUnit.SECONDS);
         webDriver.get(Constants.DEFAULT_WEB_URL);
-        webDriver.manage().window();
+        webDriver.manage().window().maximize();
     }
 
     private static int step;

@@ -55,12 +55,15 @@ public class HomePage extends AbstractPage{
     }
 
     public void clickOption1() {
+
         isElementPresentVerifyclick(option1);
     }
     public void clickNewGist() {
+
         isElementPresentVerifyclick(newGistBtn);
     }
     public void inputNewGistField() {
+
         inputTextToElement(gistNameField, "TestGist");
     }
     public void inputUpdateNewGistField() {
@@ -76,12 +79,15 @@ public class HomePage extends AbstractPage{
         inputTextToElement(gistDesc, "tester Gist 1");
     }
     public void clickSubmitGistBtn() {
+
         isElementPresentVerifyclick(submitGistBtn);
     }
     public void clickEditGistBtn() {
+
         isElementPresentVerifyclick(editGistBtn);
     }
     public void clickUpdateGistBtn() {
+
         isElementPresentVerifyclick(updatePublicGistBtn);
     }
     public void clickDeleteGistBtn() {
